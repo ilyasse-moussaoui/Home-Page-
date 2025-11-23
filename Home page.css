@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+ul li:first-child a{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin-left: 150px;
+    margin-right: 300px;
+    font-weight: bolder;
+    text-decoration:none;
+}
+.Logo{
+    margin-top: 7px;
+}
+li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+}
+.menu{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+header{
+    height: 40px;
+    background-image: linear-gradient(90deg,#677ce7 , #764da0);
+    padding-top: 10px;
+    box-shadow: 0px 5px 50px #0000001a;
+    position: relative;
+    z-index: 10;
+    overflow: hidden;
+}
+main{
+    background-image: linear-gradient(90deg,#677ce7 , #764da0);
+    height: 250px;
+    color: white;
+    padding-top: 20px;
+}
+.Bienvenue,.plus,.btn{
+    text-align: center;
+    transform: translate(0,70px);
+    margin-bottom: 20px;
+}
+.plus{
+    font-size: 13px;
+}
+
+footer{
+    background-color:#333333;
+    height: 30px;
+    margin-top: 160px;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    font-weight: normal;
+}
+.btn{
+    background-color: white;
+    border: none;
+    border-radius: 40px;
+    padding: 10px 15px;
+    margin-left: 620px;
+    border: 1px solid white;
+}
+.btn-int{
+    color: #677ce7;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.mr{
+    background-color: darkgreen;
+    display: inline-block;
+}
+section{
+    display: inline-block;
+    height: 200px;
+    width: 300px;
+    transform: translate(100px,90px);
+    margin-right: 20px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.13);
+    border-radius: 10px;
+    padding-left: 15px;
+}
+.title{
+    color: #7f87b7;
+    margin-bottom: 20px;
+}
+.image{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 50px;
+}
+
+/* la partie hover */
+.btn:hover{
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid white;
+}
+.btn-int:hover{
+    color: white;
+}
+.menu:hover{
+    text-decoration: underline solid white;
+    text-decoration-thickness: 2px ;
+}
+
+section:hover{
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.993);
+    margin-top: 4px;
+    margin-left: 2px;
+    border-radius: 10px;
+}
